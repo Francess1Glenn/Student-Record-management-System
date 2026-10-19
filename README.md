@@ -92,19 +92,50 @@ No external Python packages are required.
 
 The following example illustrates how a student can be registered:
 
+### Example 1: Register a Student
+
 **Input:**
 
-- Student ID: ST001
-- Student Name: Francess Glennis
-- Course: Business Information Technology
+    Enter your choice: 1
+    Enter Student ID: ST001
+    Enter Student Name: Francess Glennis
+    Enter Course: Business Information Technology
 
-**Expected output:**
+**Expected Output:**
 
-`Student registered successfully.`
+    Student registered successfully.
 
-When the user selects the option to display all students, the application displays each registered student's ID, name, and course.
+### Example 2: Add a Student Result
 
-When the user records an academic result, the application requests the student ID, subject, mark, and grade. The saved result can then be displayed or searched using the available menu options.
+**Input:**
+
+    Enter your choice: 7
+    Enter Student ID: ST001
+    Enter Subject: Mathematics
+    Enter the student's mark (0-100): 85
+    Enter Grade: A
+
+**Expected Output:**
+
+    Student result saved successfully.
+
+### Example 3: Display Student Results
+
+**Input:**
+
+    Enter your choice: 8
+
+**Expected Output:**
+
+    ALL STUDENT RESULTS
+
+    STUDENT RESULT
+    ------------------------------
+    Student ID: ST001
+    Subject: Mathematics
+    Mark: 85.0
+    Grade: A
+    ------------------------------
 
 ## 9. Digital Public Goods Principles
 
